@@ -4,14 +4,14 @@ plugins {
 }
 
 group = "com.vazh2100"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
 }
 
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(17)
 }
 
 publishing {
